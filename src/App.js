@@ -1,26 +1,131 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'rsuite/dist/styles/rsuite-default.css';
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import WelcomePage from "./pages/authentication/WelcomePage";
+import IndexPage from "./pages/home/IndexPage";
+import SignInPage from "./pages/authentication/SignInPage";
+import AccountPage from "./pages/account/AccountPage";
+import AssessmentPage from "./pages/assessment/AssessmentPage";
+import AssignmentsPage from "./pages/assignments/AssignmentsPage";
+import ChangePasswordPage from "./pages/authentication/ChangePasswordPage";
+import RecoverPasswordPage from "./pages/authentication/RecoverPasswordPage";
+import CoursesPage from "./pages/courses/CoursesPage";
+import CourseDetailPage from "./pages/courses/CourseDetailPage";
+import ReviewsPage from "./pages/reviews/ReviewsPage";
+import QuizzesPage from "./pages/quizzes/QuizzesPage";
+import QuizDetailPage from "./pages/quizzes/QuizDetailPage";
+import FAQPage from "./pages/faq/FAQPage";
+import TopicsPage from "./pages/forum/TopicsPage";
+import ProfilePage from "./pages/profile/ProfilePage";
+import CreateQuizPage from "./pages/quizzes/CreateQuizPage";
+import QuestionsPage from "./pages/questions/QuestionsPage";
+import EditProfilePage from "./pages/profile/EditProfilePage";
+import CreateCoursePage from "./pages/courses/CreateCoursePage";
+import CreateAssignment from "./pages/assignments/CreateAssignmentPage";
+import CreateQuestionPage from "./pages/questions/CreateQuestionPage";
+import CreateTopicPage from "./pages/forum/CreateTopicPage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <Switch>
+                <Route path="/" exact>
+                    <IndexPage/>
+                </Route>
+
+                <Route path="/welcome">
+                    <WelcomePage/>
+                </Route>
+
+                <Route path="/login">
+                    <SignInPage/>
+                </Route>
+
+                <Route path="/account">
+                    <AccountPage/>
+                </Route>
+
+                <Route path="/assessment">
+                    <AssessmentPage/>
+                </Route>
+
+                <Route path="/assignments">
+                    <AssignmentsPage/>
+                </Route>
+
+                <Route path="/change-password">
+                    <ChangePasswordPage/>
+                </Route>
+
+                <Route path="/recover-password">
+                    <RecoverPasswordPage/>
+                </Route>
+
+                <Route path="/courses">
+                    <CoursesPage/>
+                </Route>
+
+                <Route path="/courses/:courseID">
+                    <CourseDetailPage/>
+                </Route>
+
+
+                <Route path="/reviews">
+                    <ReviewsPage/>
+                </Route>
+
+                <Route path="/quizzes">
+                    <QuizzesPage/>
+                </Route>
+
+                <Route path="/quizzes/:quizID">
+                    <QuizDetailPage/>
+                </Route>
+
+                <Route path="/faqs">
+                    <FAQPage/>
+                </Route>
+
+                <Route path="/topics">
+                    <TopicsPage/>
+                </Route>
+
+                <Route path="/profile">
+                    <ProfilePage/>
+                </Route>
+
+                <Route path="/new/quiz">
+                    <CreateQuizPage/>
+                </Route>
+
+                <Route path="/questions">
+                    <QuestionsPage/>
+                </Route>
+
+                <Route path="/edit-profile">
+                    <EditProfilePage/>
+                </Route>
+
+                <Route path="/new/course" exact={true}>
+                    <CreateCoursePage/>
+                </Route>
+
+                <Route path="/new/assignment" exact={true}>
+                    <CreateAssignment/>
+                </Route>
+
+                <Route path="/new/question" exact={true}>
+                    <CreateQuestionPage/>
+                </Route>
+
+                <Route path="/new/topic">
+                    <CreateTopicPage/>
+                </Route>
+            </Switch>
+        </BrowserRouter>
+    );
 }
 
 export default App;
