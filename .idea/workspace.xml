@@ -2,65 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7535d6a9-7d36-4205-9c8f-74a72540774c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-devices-books-business-coffee-572056.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/cprogrammingcover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/defaultprofile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigation/NavigationBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/SimpleRemovableItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/account/AccountPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/assessment/AssessmentPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/assignments/AssignmentDetailPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/assignments/AssignmentListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/assignments/AssignmentsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/assignments/CreateAssignmentPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/authentication/ChangePasswordPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/authentication/RecoverPasswordPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/authentication/SignInPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/authentication/SignInStyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/authentication/SignUpPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/authentication/SignUpStyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/authentication/WelcomePage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/authentication/WelcomePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/courses/CourseContentOptionItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/courses/CourseDetailPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/courses/CourseListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/courses/CoursesPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/courses/CreateCoursePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/faq/FAQItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/faq/FAQPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/forum/CommentListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/forum/CreateTopicPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/forum/TopicDetailPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/forum/TopicListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/forum/TopicsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/IndexPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/profile/EditProfilePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/profile/ProfilePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/questions/CreateQuestionPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/questions/MultipleChoiceQuestion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/questions/MultipleChoiceQuestionForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/questions/QuestionOptionItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/questions/QuestionsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/questions/WrittenQuestion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/questions/WrittenQuestionForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/quizzes/CreateQuizPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/quizzes/QuizDetailPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/quizzes/QuizListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/quizzes/QuizzesPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/reviews/CreateReviewItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/reviews/ReviewItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/reviews/ReviewsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/e-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/e-learning-lecturer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/account/AccountPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/AccountPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/assessment/AssessmentPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/assessment/AssessmentPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/assignments/AssignmentsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/assignments/AssignmentsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/assignments/CreateAssignmentPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/assignments/CreateAssignmentPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CoursesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/CreateCoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CreateCoursePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/faq/FAQItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/faq/FAQItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/faq/FAQPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/faq/FAQPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/forum/TopicDetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forum/TopicDetailPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/forum/TopicsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forum/TopicsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/IndexPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/IndexPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile/ProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/questions/CreateQuestionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/questions/CreateQuestionPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/questions/QuestionsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/questions/QuestionsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/quizzes/CreateQuizPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/quizzes/CreateQuizPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/quizzes/QuizzesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/quizzes/QuizzesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/reviews/ReviewsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/reviews/ReviewsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +46,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -92,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -120,10 +81,14 @@
       <scripts>
         <script value="start" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v14.2.0/bin/node" />
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -148,48 +113,25 @@
       <workItem from="1581255298689" duration="1192000" />
       <workItem from="1581332961539" duration="4809000" />
       <workItem from="1581419460629" duration="22429000" />
-      <workItem from="1581446794150" duration="4211000" />
+      <workItem from="1581446794150" duration="6854000" />
+      <workItem from="1581529220220" duration="599000" />
+      <workItem from="1581589120186" duration="597000" />
+      <workItem from="1581778137583" duration="735000" />
+      <workItem from="1581788383669" duration="721000" />
+      <workItem from="1592303047209" duration="1525000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="646" y="243" width="688" height="628" key="#npm_start" timestamp="1580728032540">
-      <screen x="70" y="27" width="1850" height="1053" />
+    <state x="453" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592303898333">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="646" y="243" width="688" height="628" key="#npm_start/70.27.1850.1053@70.27.1850.1053" timestamp="1580728032540" />
-    <state x="717" y="299" key="FileChooserDialogImpl" timestamp="1580728025327">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="717" y="299" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1580728025327" />
-    <state width="899" height="274" key="GridCell.Tab.0.bottom" timestamp="1581452025608">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state width="899" height="274" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1581452025608" />
-    <state width="899" height="274" key="GridCell.Tab.0.center" timestamp="1581452025607">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state width="899" height="274" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1581452025607" />
-    <state width="899" height="274" key="GridCell.Tab.0.left" timestamp="1581452025607">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state width="899" height="274" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1581452025607" />
-    <state width="899" height="274" key="GridCell.Tab.0.right" timestamp="1581452025607">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state width="899" height="274" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1581452025607" />
-    <state x="513" y="188" width="964" height="737" key="SettingsEditor" timestamp="1580727983181">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="513" y="188" width="964" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1580727983181" />
-    <state x="659" y="252" key="run.anything.popup" timestamp="1581431595738">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="659" y="252" key="run.anything.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1581431595738" />
+    <state x="453" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592303898333" />
   </component>
 </project>

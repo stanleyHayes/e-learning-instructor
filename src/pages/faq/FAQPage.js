@@ -76,50 +76,53 @@ function FAQPage(props) {
 
     return (
         <Layout>
-            <Container>
-                <Card style={{borderRadius: "24px", backgroundColor: "white"}} className="shadow-sm mb-4 mx-2">
-                    <Form fluid={true} style={{padding: "1.2em"}}>
-                        <FormGroup>
-                            <ControlLabel>Question</ControlLabel>
-                            <FormControl placeholder="Enter Question" type="text" onChange={handleFAQChange}/>
-                        </FormGroup>
+            <div className="py-5" style={{backgroundColor: "#ddd"}}>
+                <Container>
+                    <Card style={{borderRadius: "24px", backgroundColor: "white"}} className="shadow-sm mb-4 mx-2">
+                        <Form fluid={true} style={{padding: "1.2em"}}>
+                            <FormGroup>
+                                <ControlLabel>Question</ControlLabel>
+                                <FormControl className="rounded-pill" placeholder="Enter Question" type="text" onChange={handleFAQChange}/>
+                            </FormGroup>
 
-                        <FormGroup>
-                            <ControlLabel>Answer</ControlLabel>
-                            <FormControl placeholder="Enter Answer" type="text" onChange={handleFAQChange}/>
-                        </FormGroup>
+                            <FormGroup>
+                                <ControlLabel>Answer</ControlLabel>
+                                <FormControl className="rounded-pill"  placeholder="Enter Answer" type="text" onChange={handleFAQChange}/>
+                            </FormGroup>
 
-                        <Button className="rounded-pill" block={true} color="blue" size="sm" onClick={handleSubmit} onSubmit={handleSubmit}
-                                loading={loading} disabled={loading}>
-                            Add FAQ
-                        </Button>
-                    </Form>
-                </Card>
+                            <Button className="rounded-pill" block={true} color="blue" size="sm" onClick={handleSubmit}
+                                    onSubmit={handleSubmit}
+                                    loading={loading} disabled={loading}>
+                                Add FAQ
+                            </Button>
+                        </Form>
+                    </Card>
 
-                <Row>
-                    {
-                        (FAQs.length === 0) ? (
-                            <Col style={{
-                                display: "flex",
-                                justifyContent: "center",
-                                alignItems: "center",
-                                minHeight: "53vh",
-                                marginTop: "1.5em"
-                            }}>
-                                <h4>No FAQs Available</h4>
-                            </Col>
-                        ) : (
-                            FAQs.map(function (FAQ) {
-                                return (
-                                    <Col sm={24} md={12} style={{marginTop: "1.2em"}}>
-                                        <FAQItem FAQ={FAQ}/>
-                                    </Col>
-                                )
-                            })
-                        )
-                    }
-                </Row>
-            </Container>
+                    <Row>
+                        {
+                            (FAQs.length === 0) ? (
+                                <Col style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    minHeight: "53vh",
+                                    marginTop: "1.5em"
+                                }}>
+                                    <h4>No FAQs Available</h4>
+                                </Col>
+                            ) : (
+                                FAQs.map(function (FAQ) {
+                                    return (
+                                        <Col sm={24} md={12} style={{marginTop: "1.2em"}}>
+                                            <FAQItem FAQ={FAQ}/>
+                                        </Col>
+                                    )
+                                })
+                            )
+                        }
+                    </Row>
+                </Container>
+            </div>
         </Layout>
     )
 }

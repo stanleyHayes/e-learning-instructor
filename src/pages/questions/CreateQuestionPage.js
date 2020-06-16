@@ -18,38 +18,41 @@ function CreateQuestionPage(props) {
 
     return (
         <Layout>
-            <Grid fluid={true}>
-                <Row>
-                    <Col xs={24} sm={24} md={16} lg={16} mdOffset={4} lgOffset={4}>
-                        <Panel bordered={true} className="shadow-sm" style={{backgroundColor: "white", borderRadius: "24px"}}>
-                            <Form>
-                                <Form.Group>
-                                    <Form.Label>Question Type</Form.Label>
-                                    <Form.Control
-                                        as="select"
-                                        onChange={handleQuestionTypeFormChange}
-                                        value={questionTypeForm}
-                                        className="rounded-pill">
+            <div className="py-5" style={{backgroundColor: "#ddd", minHeight: "100vh"}}>
+                <Grid fluid={false}>
+                    <Row>
+                        <Col xs={24} sm={24} md={16} lg={16} mdOffset={4} lgOffset={4}>
+                            <Panel bordered={true} className="shadow-sm"
+                                   style={{backgroundColor: "white", borderRadius: "24px"}}>
+                                <Form>
+                                    <Form.Group>
+                                        <Form.Label>Question Type</Form.Label>
+                                        <Form.Control
+                                            as="select"
+                                            onChange={handleQuestionTypeFormChange}
+                                            value={questionTypeForm}
+                                            className="rounded-pill">
 
-                                        <option value="MCQ">Multiple Choice Question</option>
-                                        <option value="written">Written</option>
+                                            <option value="MCQ">Multiple Choice Question</option>
+                                            <option value="written">Written</option>
 
-                                    </Form.Control>
-                                </Form.Group>
-                            </Form>
-                        </Panel>
+                                        </Form.Control>
+                                    </Form.Group>
+                                </Form>
+                            </Panel>
 
-                        <Divider>Add Question</Divider>
-                        {
-                            (questionTypeForm === "MCQ") ? (
-                                <MultipleChoiceQuestionForm/>
-                            ) : (
-                                <WrittenQuestionForm/>
-                            )
-                        }
-                    </Col>
-                </Row>
-            </Grid>
+                            <Divider>Add Question</Divider>
+                            {
+                                (questionTypeForm === "MCQ") ? (
+                                    <MultipleChoiceQuestionForm/>
+                                ) : (
+                                    <WrittenQuestionForm/>
+                                )
+                            }
+                        </Col>
+                    </Row>
+                </Grid>
+            </div>
         </Layout>
     )
 }

@@ -21,30 +21,32 @@ function ReviewsPage(props) {
     const [reviews, setReviews] = useState([_review, _review, _review, _review, _review, _review, _review, _review, _review]);
     return (
         <Layout>
-            <Grid fluid={false}>
-                <Row>
-                    {
-                        (reviews.length === 0) ? (
-                            <Col style={{minHeight: " 90vh"}}
-                                 className="d-flex justify-content-center align-items-center">
-                                <h5>No Reviews available</h5>
-                            </Col>
-                        ) : (
+            <div className="py-5" style={{backgroundColor: "#ddd"}}>
+                <Grid fluid={false}>
+                    <Row>
+                        {
+                            (reviews.length === 0) ? (
+                                <Col style={{minHeight: " 90vh"}}
+                                     className="d-flex justify-content-center align-items-center">
+                                    <h5>No Reviews available</h5>
+                                </Col>
+                            ) : (
 
 
-                            reviews.map(function (review, index) {
-                                return (
-                                    <Col key={index} xs={24} sm={24} md={12} lg={12} className="mb-3">
-                                        <ReviewItem review={review}/>
-                                    </Col>
-                                )
-                            })
+                                reviews.map(function (review, index) {
+                                    return (
+                                        <Col key={index} xs={24} sm={24} md={12} lg={12} className="mb-3">
+                                            <ReviewItem review={review}/>
+                                        </Col>
+                                    )
+                                })
 
 
-                        )
-                    }
-                </Row>
-            </Grid>
+                            )
+                        }
+                    </Row>
+                </Grid>
+            </div>
         </Layout>
     )
 }

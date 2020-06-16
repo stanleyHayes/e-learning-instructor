@@ -56,64 +56,67 @@ function TopicsPage(props) {
 
     return (
         <Layout>
-            <Grid fluid={false}>
-                <Row>
-                    <Col xs={24} sm={24} md={24} lg={24} className="mb-5">
-                        <IconButton icon={<Icon icon="plus"/>} placement="left" size="lg" color="red" block={false}>
-                            <Link to="/new/topic" className="text-white">
-                                Add Topic
-                            </Link>
-                        </IconButton>
-                    </Col>
-                    <Col xs={24} sm={24} md={14} lg={14}>
+            <div className="py-5" style={{backgroundColor: "#ddd", minHeight: "100vh"}}>
+                <Grid fluid={false}>
+                    <Row>
+                        <Col xs={24} sm={24} md={24} lg={24} className="mb-5">
+                            <IconButton icon={<Icon icon="plus"/>} placement="left" size="lg" color="red" block={false}>
+                                <Link to="/new/topic" className="text-white">
+                                    Add Topic
+                                </Link>
+                            </IconButton>
+                        </Col>
+                        <Col xs={24} sm={24} md={14} lg={14}>
 
-                        <Row>
+                            <Row>
+                                {
+                                    (topics.length === 0) ? (
+                                        <Col style={{
+                                            backgroundColor: "whitesmoke",
+                                            minHeight: "90vh"
+                                        }} xs={24}
+                                             className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
+                                            <h5>No topics available</h5>
+                                        </Col>
+                                    ) : (
+                                        <Col>
+                                            <List hover={true} bordered={true}>
+                                                {
+                                                    topics.map(function (topic, index) {
+                                                        return (
+                                                            <TopicListItem
+                                                                key={index}
+                                                                handleSelectedTopic={handleSelectedTopic}
+                                                                topic={topic}
+                                                            />
+                                                        )
+                                                    })
+                                                }
+                                            </List>
+                                        </Col>
+                                    )
+                                }
+                            </Row>
+                        </Col>
+
+                        <Col xs={24} sm={24} md={10} lg={10}>
                             {
-                                (topics.length === 0) ? (
-                                    <Col style={{
+                                (topics.length > 0 && selectedTopic) ? (
+                                    <TopicDetailPage topic={selectedTopic}/>
+                                ) : (
+                                    <div style={{
                                         backgroundColor: "whitesmoke",
                                         minHeight: "90vh"
-                                    }} xs={24}
+                                    }}
                                          className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
-                                        <h5>No topics available</h5>
-                                    </Col>
-                                ) : (
-                                    <Col>
-                                        <List hover={true} bordered={true}>
-                                            {
-                                                topics.map(function (topic, index) {
-                                                    return (
-                                                        <TopicListItem
-                                                            key={index}
-                                                            handleSelectedTopic={handleSelectedTopic}
-                                                            topic={topic}
-                                                        />
-                                                    )
-                                                })
-                                            }
-                                        </List>
-                                    </Col>
+                                        <h6>No topic Selected</h6>
+                                    </div>
                                 )
                             }
-                        </Row>
-                    </Col>
-
-                    <Col xs={24} sm={24} md={10} lg={10}>
-                        {
-                            (topics.length > 0 && selectedTopic) ? (
-                                <TopicDetailPage topic={selectedTopic}/>
-                            ) : (
-                                <div style={{
-                                    backgroundColor: "whitesmoke",
-                                    minHeight: "90vh"
-                                }} className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
-                                    <h6>No topic Selected</h6>
-                                </div>
-                            )
-                        }
-                    </Col>
-                </Row>
-            </Grid>
+                        </Col>
+                    </Row>
+                </Grid>
+            </div>
         </Layout>
     )
 }

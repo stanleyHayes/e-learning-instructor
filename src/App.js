@@ -31,9 +31,9 @@ function App() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact>
-                    <IndexPage/>
-                </Route>
+                {/*<Route path="/" exact>*/}
+                {/*    <IndexPage/>*/}
+                {/*</Route>*/}
 
                 <Route path="/welcome">
                     <WelcomePage/>
@@ -47,9 +47,9 @@ function App() {
                     <AccountPage/>
                 </Route>
 
-                <Route path="/assessment">
-                    <AssessmentPage/>
-                </Route>
+                {/*<Route path="/assessment">*/}
+                {/*    <AssessmentPage/>*/}
+                {/*</Route>*/}
 
                 <Route path="/assignments">
                     <AssignmentsPage/>
@@ -63,9 +63,7 @@ function App() {
                     <RecoverPasswordPage/>
                 </Route>
 
-                <Route path="/courses">
-                    <CoursesPage/>
-                </Route>
+
 
                 <Route path="/courses/:courseID">
                     <CourseDetailPage/>
@@ -92,9 +90,9 @@ function App() {
                     <TopicsPage/>
                 </Route>
 
-                <Route path="/profile">
-                    <ProfilePage/>
-                </Route>
+                {/*<Route path="/profile">*/}
+                {/*    <ProfilePage/>*/}
+                {/*</Route>*/}
 
                 <Route path="/new/quiz">
                     <CreateQuizPage/>
@@ -122,6 +120,10 @@ function App() {
 
                 <Route path="/new/topic">
                     <CreateTopicPage/>
+                </Route>
+
+                <Route path="/">
+                    <CoursesPage/>
                 </Route>
             </Switch>
         </BrowserRouter>

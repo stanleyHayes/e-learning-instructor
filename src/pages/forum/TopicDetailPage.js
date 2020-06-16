@@ -7,7 +7,7 @@ function TopicDetailPage(props) {
     const [loading, setLoading] = useState(false);
     return (
         <React.Fragment>
-            <Panel bordered={true} className="mb-2">
+            <Panel bordered={true} className="mb-2 bg-white">
                 <Form>
                     <Form.Row>
                         <Col xs={9} sm={9} md={9} lg={9} xl={9}>

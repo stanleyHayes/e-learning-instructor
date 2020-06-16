@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {
     Col,
     Content,
@@ -27,27 +27,27 @@ function Layout(props) {
 
             <Grid fluid={true}>
                 <Row>
-                    <Col xsHidden={true} smHidden={true} mdHidden={true} lg={4} className="my-5">
+                    <Col xsHidden={true} smHidden={true} mdHidden={true} lg={4}>
                         <Sidenav style={{backgroundColor: "white"}}>
                             <Sidenav.Body>
-                                <List hover={true} bordered={false} size="md" className="px-2">
-                                    <List.Item>
-                                        <Link to="/" style={styles.link}>
-                                            Home
-                                        </Link>
-                                    </List.Item>
+                                <List hover={true} bordered={true} size="md" className="px-2">
+                                    {/*<List.Item>*/}
+                                    {/*    <Link to="/" style={styles.link}>*/}
+                                    {/*        Home*/}
+                                    {/*    </Link>*/}
+                                    {/*</List.Item>*/}
 
                                     <List.Item>
-                                        <Link to="/courses" style={styles.link}>
+                                        <Link to="/" style={styles.link}>
                                             Courses
                                         </Link>
                                     </List.Item>
 
-                                    <List.Item>
-                                        <Link to="/profile" style={styles.link}>
-                                            Profile
-                                        </Link>
-                                    </List.Item>
+                                    {/*<List.Item>*/}
+                                    {/*    <Link to="/profile" style={styles.link}>*/}
+                                    {/*        Profile*/}
+                                    {/*    </Link>*/}
+                                    {/*</List.Item>*/}
 
                                     <List.Item>
                                         <Link to="/topics" style={styles.link}>
@@ -91,29 +91,29 @@ function Layout(props) {
                                         </Link>
                                     </List.Item>
 
-                                    <List.Item>
-                                        <Link to="/new/quiz" style={styles.link}>
-                                            Create Quiz
-                                        </Link>
-                                    </List.Item>
+                                    {/*<List.Item>*/}
+                                    {/*    <Link to="/new/quiz" style={styles.link}>*/}
+                                    {/*        Create Quiz*/}
+                                    {/*    </Link>*/}
+                                    {/*</List.Item>*/}
 
-                                    <List.Item>
-                                        <Link to="/new/assignment" style={styles.link}>
-                                            Create Assignment
-                                        </Link>
-                                    </List.Item>
+                                    {/*<List.Item>*/}
+                                    {/*    <Link to="/new/assignment" style={styles.link}>*/}
+                                    {/*        Create Assignment*/}
+                                    {/*    </Link>*/}
+                                    {/*</List.Item>*/}
 
-                                    <List.Item>
-                                        <Link to="/new/question" style={styles.link}>
-                                            Create Question
-                                        </Link>
-                                    </List.Item>
+                                    {/*<List.Item>*/}
+                                    {/*    <Link to="/new/question" style={styles.link}>*/}
+                                    {/*        Create Question*/}
+                                    {/*    </Link>*/}
+                                    {/*</List.Item>*/}
 
-                                    <List.Item>
-                                        <Link to="/questions" style={styles.link}>
-                                            Questions
-                                        </Link>
-                                    </List.Item>
+                                    {/*<List.Item>*/}
+                                    {/*    <Link to="/questions" style={styles.link}>*/}
+                                    {/*        Questions*/}
+                                    {/*    </Link>*/}
+                                    {/*</List.Item>*/}
 
                                     <List.Item>
                                         <Link to="/account" style={styles.link}>
@@ -130,9 +130,7 @@ function Layout(props) {
                         xs={24}
                         sm={24}
                         lg={20}
-                        md={24}
-                        className="py-5 px-2"
-                        style={{backgroundColor: "rgba(240,240,240,0.61)"}}>
+                        md={24}>
                         <Content style={{minHeight: "90vh"}}>
                             {props.children}
                         </Content>

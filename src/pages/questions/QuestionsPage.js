@@ -65,72 +65,74 @@ function QuestionsPage(props) {
 
     return (
         <Layout>
-            <Grid fluid={false}>
-                <Row>
-                    <Col xs={24} sm={24} md={24} lg={24} className="mb-3">
-                        <IconButton icon={<Icon icon="plus"/>} placement="left" size="lg" color="red" block={false}>
-                            <Link to="/new/question" className="text-white">
-                                Add Question
-                            </Link>
-                        </IconButton>
-                    </Col>
-                    <Col xs={24} sm={24} md={24} lg={24} className="mb-5">
-                        <h2 className="text-center">Written Choice Questions</h2>
-                    </Col>
-                    {
-                        (MCQs.length === 0) ? (
-                            <Col
-                                xs={24} sm={24} md={24} lg={24}
-                                style={{
-                                    display: "flex",
-                                    minHeight: "50vh",
-                                    justifyContent: "center",
-                                    alignItems: "center"
-                                }}>
-                                <h5>No Questions Available</h5>
-                            </Col>
-                        ) : (
-                            MCQs.map(function (question) {
-                                return (
-                                    <Col xs={24} md={12} lg={8} className="mb-4">
-                                        <MultipleChoiceQuestion question={question}/>
-                                    </Col>
-                                )
-                            })
-                        )
-                    }
-                </Row>
+            <div className="py-5" style={{backgroundColor: "#ddd", minHeight: "100vh"}}>
+                <Grid fluid={false}>
+                    <Row>
+                        <Col xs={24} sm={24} md={24} lg={24} className="mb-3">
+                            <IconButton icon={<Icon icon="plus"/>} placement="left" size="lg" color="red" block={false}>
+                                <Link to="/new/question" className="text-white">
+                                    Add Question
+                                </Link>
+                            </IconButton>
+                        </Col>
+                        <Col xs={24} sm={24} md={24} lg={24} className="mb-5">
+                            <h2 className="text-center">Written Choice Questions</h2>
+                        </Col>
+                        {
+                            (MCQs.length === 0) ? (
+                                <Col
+                                    xs={24} sm={24} md={24} lg={24}
+                                    style={{
+                                        display: "flex",
+                                        minHeight: "50vh",
+                                        justifyContent: "center",
+                                        alignItems: "center"
+                                    }}>
+                                    <h5>No Questions Available</h5>
+                                </Col>
+                            ) : (
+                                MCQs.map(function (question) {
+                                    return (
+                                        <Col xs={24} md={12} lg={8} className="mb-4">
+                                            <MultipleChoiceQuestion question={question}/>
+                                        </Col>
+                                    )
+                                })
+                            )
+                        }
+                    </Row>
 
-                <Divider/>
+                    <Divider/>
 
-                <Row>
-                    <Col xs={24} className="mb-5">
-                        <h2 className="text-center">Multiple Choice Questions</h2>
-                    </Col>
-                    {
-                        (writtenQuestions.length === 0) ? (
-                            <Col
-                                xs={24} sm={24} md={24} lg={24}
-                                style={{
-                                    display: "flex",
-                                    minHeight: "50vh",
-                                    justifyContent: "center",
-                                    alignItems: "center"
-                                }}>
-                                <h5>No Questions Available</h5>
-                            </Col>
-                        ) : (
-                            writtenQuestions.map(function (question) {
-                                return (
-                                    <Col xs={24} md={12} lg={8} className="mb-4">
-                                        <WrittenQuestion question={question}/>
-                                    </Col>
-                                )
-                            })
-                        )
-                    }
-                </Row>
-            </Grid>
+                    <Row>
+                        <Col xs={24} className="mb-5">
+                            <h2 className="text-center">Multiple Choice Questions</h2>
+                        </Col>
+                        {
+                            (writtenQuestions.length === 0) ? (
+                                <Col
+                                    xs={24} sm={24} md={24} lg={24}
+                                    style={{
+                                        display: "flex",
+                                        minHeight: "50vh",
+                                        justifyContent: "center",
+                                        alignItems: "center"
+                                    }}>
+                                    <h5>No Questions Available</h5>
+                                </Col>
+                            ) : (
+                                writtenQuestions.map(function (question) {
+                                    return (
+                                        <Col xs={24} md={12} lg={8} className="mb-4">
+                                            <WrittenQuestion question={question}/>
+                                        </Col>
+                                    )
+                                })
+                            )
+                        }
+                    </Row>
+                </Grid>
+            </div>
         </Layout>
     )
 }

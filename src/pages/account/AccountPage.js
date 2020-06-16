@@ -45,50 +45,60 @@ function AccountPage(props) {
 
     return (
         <Layout>
-            <Grid fluid={true}>
-                <Row style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    minHeight: "80vh",
-                    justifyContent: "center"
-                }}>
-                    <Col xs={24} sm={24} mdOffset={2} md={20} lgOffset={6} lg={12}>
-                        <Panel bordered={false} style={{backgroundColor: "white", borderRadius: "24px"}} className="shadow-sm">
-                            <List bordered={true} hover={true} size="md">
-                                <List.Item>
-                                    <Link to="/edit-profile">
-                                        Edit Profile
-                                    </Link>
-                                </List.Item>
+            <div className="py-5" style={{backgroundColor: "#ddd", minHeight: "100vh"}}>
+                <Grid fluid={true}>
+                    <Row style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        minHeight: "80vh",
+                        justifyContent: "center"
+                    }}>
+                        <Col xs={24} sm={24} mdOffset={2} md={20} lgOffset={6} lg={12}>
+                            <Panel bordered={false} style={{backgroundColor: "white", borderRadius: "24px"}}
+                                   className="shadow-sm">
+                                <List bordered={true} hover={true} size="md">
+                                    <List.Item>
+                                        <Link to="/edit-profile">
+                                            Edit Profile
+                                        </Link>
+                                    </List.Item>
 
-                                <List.Item>
-                                    <Link to="/change-password">
-                                        Change Password
-                                    </Link>
-                                </List.Item>
+                                    <List.Item>
+                                        <Link to="/change-password">
+                                            Change Password
+                                        </Link>
+                                    </List.Item>
 
-                                <List.Item>
-                                    <Button block={true} color="orange" size="sm" className="rounded-pill"  onClick={handleLogout}>
-                                        Logout
-                                    </Button>
-                                </List.Item>
+                                    <List.Item>
+                                        <Button
+                                            block={true}
+                                            color="orange"
+                                            size="sm"
+                                            className="rounded-pill"
+                                            onClick={handleLogout}>
+                                            Logout
+                                        </Button>
+                                    </List.Item>
 
-                                <List.Item>
-                                    <Button block={true} color="red" size="sm" className="rounded-pill"  onClick={handleDeactivate}>
-                                        De-activate Account
-                                    </Button>
-                                </List.Item>
+                                    <List.Item>
+                                        <Button block={true} color="red" size="sm" className="rounded-pill"
+                                                onClick={handleDeactivate}>
+                                            De-activate Account
+                                        </Button>
+                                    </List.Item>
 
-                                <List.Item>
-                                    <Button block={true} color="red" size="sm" className="rounded-pill" onClick={handleDeactivate}>
-                                        Delete Account
-                                    </Button>
-                                </List.Item>
-                            </List>
-                        </Panel>
-                    </Col>
-                </Row>
-            </Grid>
+                                    <List.Item>
+                                        <Button block={true} color="red" size="sm" className="rounded-pill"
+                                                onClick={handleDeactivate}>
+                                            Delete Account
+                                        </Button>
+                                    </List.Item>
+                                </List>
+                            </Panel>
+                        </Col>
+                    </Row>
+                </Grid>
+            </div>
         </Layout>
     )
 }
