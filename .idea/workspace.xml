@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7535d6a9-7d36-4205-9c8f-74a72540774c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/architecture.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ecommerce.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ethics.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/infosystem.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/infotechnology.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/security.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/systemanalysis.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/classes/classes-action-creators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/classes/classes-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/classes/classes-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/classes/classes-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/courses/courses-action-creators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/courses/courses-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/courses/courses-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/courses/courses-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/exercises/exercises-action-creators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/exercises/exercises-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/exercises/exercises-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/exercises/exercises-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/lessons/lessons-action-creators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/lessons/lessons-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/lessons/lessons-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/lessons/lessons-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/submissions/submissions-action-creators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/submissions/submissions-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/submissions/submissions-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/submissions/submissions-type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/topics/topics-action-creators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/topics/topics-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/topics/topics-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/topics/topics-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/CourseDetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CourseDetailPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/CourseListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CourseListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CoursesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +35,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -82,10 +48,11 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
@@ -138,7 +105,7 @@
       <workItem from="1581788383669" duration="721000" />
       <workItem from="1592303047209" duration="3235000" />
       <workItem from="1592324726360" duration="594000" />
-      <workItem from="1592341674281" duration="2355000" />
+      <workItem from="1592341674281" duration="3497000" />
     </task>
     <servers />
   </component>
@@ -153,21 +120,21 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="453" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592303898333" />
-    <state width="1822" height="274" key="GridCell.Tab.0.bottom" timestamp="1592304742888">
+    <state width="1822" height="274" key="GridCell.Tab.0.bottom" timestamp="1592393235156">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1822" height="274" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1592304742888" />
-    <state width="1822" height="274" key="GridCell.Tab.0.center" timestamp="1592304742888">
+    <state width="1822" height="274" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1592393235156" />
+    <state width="1822" height="274" key="GridCell.Tab.0.center" timestamp="1592393235155">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1822" height="274" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1592304742888" />
-    <state width="1822" height="274" key="GridCell.Tab.0.left" timestamp="1592304742887">
+    <state width="1822" height="274" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1592393235155" />
+    <state width="1822" height="274" key="GridCell.Tab.0.left" timestamp="1592393235155">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1822" height="274" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1592304742887" />
-    <state width="1822" height="274" key="GridCell.Tab.0.right" timestamp="1592304742888">
+    <state width="1822" height="274" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1592393235155" />
+    <state width="1822" height="274" key="GridCell.Tab.0.right" timestamp="1592393235156">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1822" height="274" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1592304742888" />
+    <state width="1822" height="274" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1592393235156" />
   </component>
 </project>
