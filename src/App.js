@@ -35,15 +35,15 @@ function App() {
                 {/*    <IndexPage/>*/}
                 {/*</Route>*/}
 
-                <Route path="/welcome">
+                <Route exact={true} path="/welcome">
                     <WelcomePage/>
                 </Route>
 
-                <Route path="/login">
+                <Route exact={true} path="/login">
                     <SignInPage/>
                 </Route>
 
-                <Route path="/account">
+                <Route exact={true} path="/account">
                     <AccountPage/>
                 </Route>
 
@@ -51,42 +51,39 @@ function App() {
                 {/*    <AssessmentPage/>*/}
                 {/*</Route>*/}
 
-                <Route path="/assignments">
+                <Route exact={true} path="/assignments">
                     <AssignmentsPage/>
                 </Route>
 
-                <Route path="/change-password">
+                <Route exact={true} path="/change-password">
                     <ChangePasswordPage/>
                 </Route>
 
-                <Route path="/recover-password">
+                <Route exact={true} path="/recover-password">
                     <RecoverPasswordPage/>
                 </Route>
 
-
-
-                <Route path="/courses/:courseID">
+                <Route exact={true} path="/courses/:courseID">
                     <CourseDetailPage/>
                 </Route>
 
-
-                <Route path="/reviews">
+                <Route exact={true} path="/reviews">
                     <ReviewsPage/>
                 </Route>
 
-                <Route path="/quizzes">
+                <Route exact={true} path="/quizzes">
                     <QuizzesPage/>
                 </Route>
 
-                <Route path="/quizzes/:quizID">
+                <Route exact={true} path="/quizzes/:quizID">
                     <QuizDetailPage/>
                 </Route>
 
-                <Route path="/faqs">
+                <Route exact={true} path="/faqs">
                     <FAQPage/>
                 </Route>
 
-                <Route path="/topics">
+                <Route exact={true} path="/topics">
                     <TopicsPage/>
                 </Route>
 
@@ -94,15 +91,15 @@ function App() {
                 {/*    <ProfilePage/>*/}
                 {/*</Route>*/}
 
-                <Route path="/new/quiz">
+                <Route exact={true} path="/new/quiz">
                     <CreateQuizPage/>
                 </Route>
 
-                <Route path="/questions">
+                <Route exact={true} path="/questions">
                     <QuestionsPage/>
                 </Route>
 
-                <Route path="/edit-profile">
+                <Route exact={true} path="/edit-profile">
                     <EditProfilePage/>
                 </Route>
 
@@ -118,12 +115,17 @@ function App() {
                     <CreateQuestionPage/>
                 </Route>
 
-                <Route path="/new/topic">
+                <Route exact={true} path="/new/topic">
                     <CreateTopicPage/>
                 </Route>
 
-                <Route path="/">
+                <Route exact={true} path="/">
                     <CoursesPage/>
+                </Route>
+
+
+                <Route exact={true} path="/courses/:courseID">
+                    <CourseDetailPage />
                 </Route>
             </Switch>
         </BrowserRouter>
